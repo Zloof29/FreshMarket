@@ -1,0 +1,85 @@
+Time: Tue Dec 17 2024 18:10:02 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/products/1 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:10:35 GMT+0200 (שעון ישראל (חורף))
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:11:15 GMT+0200 (שעון ישראל (חורף))
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:12:07 GMT+0200 (שעון ישראל (חורף))
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:14:03 GMT+0200 (שעון ישראל (חורף))
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:14:07 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/products on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 18:14:13 GMT+0200 (שעון ישראל (חורף))
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
