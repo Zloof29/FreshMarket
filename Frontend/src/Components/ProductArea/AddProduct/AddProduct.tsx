@@ -21,9 +21,13 @@ export function AddProduct(): JSX.Element {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setValue("quantityPerBox", 0);
-    setValue("orderByBox", 0);
-    setValue("orderByWeight", 0);
+    if (userId === null) {
+      navigate("/logIn");
+    } else {
+      setValue("quantityPerBox", 0);
+      setValue("orderByBox", 0);
+      setValue("orderByWeight", 0);
+    }
   }, [setValue]);
 
   async function send(product: ProductModel) {

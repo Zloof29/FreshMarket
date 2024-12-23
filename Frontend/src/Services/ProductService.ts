@@ -33,6 +33,8 @@ class ProductService {
 
     const addedProduct = response.data;
 
+    if (!store.getState().products) return;
+
     const action = productActions.addProduct(addedProduct);
     store.dispatch(action);
 
