@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import "./Register.css";
+import css from "./Register.module.css";
 import { UserModel } from "../../../Models/UserModel";
 import { useNavigate } from "react-router-dom";
 import { userService } from "../../../Services/UserService";

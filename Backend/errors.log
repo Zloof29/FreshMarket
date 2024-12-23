@@ -83,3 +83,278 @@ Stack: Error: Access denied for user 'root'@'localhost' (using password: YES)
     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
 ---------------------------------------
 
+Time: Tue Dec 17 2024 19:38:52 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:38:55 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:38:55 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:38:56 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:00 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:01 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:07 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method POST not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:11 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method POST not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:19 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:20 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:26 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method POST not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:37 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:39 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:39 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:39:45 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method POST not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:40:03 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/tasks/2 on method GET not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:40:08 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:40:33 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:40:46 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 17 2024 19:41:06 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:10:58 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:17:02 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:17:42 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:17:57 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:18:24 GMT+0200 (שעון ישראל (חורף))
+Message: Data too long for column 'password' at row 1
+Stack: Error: Data too long for column 'password' at row 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:18:30 GMT+0200 (שעון ישראל (חורף))
+Message: Data too long for column 'password' at row 1
+Stack: Error: Data too long for column 'password' at row 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:18:37 GMT+0200 (שעון ישראל (חורף))
+Message: Data too long for column 'password' at row 1
+Stack: Error: Data too long for column 'password' at row 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:18:43 GMT+0200 (שעון ישראל (חורף))
+Message: Data too long for column 'password' at row 1
+Stack: Error: Data too long for column 'password' at row 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:19:38 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:20:55 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:21:55 GMT+0200 (שעון ישראל (חורף))
+Message: Field 'name' doesn't have a default value
+Stack: Error: Field 'name' doesn't have a default value
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:22:06 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Dec 22 2024 21:31:07 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'quantityPerBox' cannot be null
+Stack: Error: Column 'quantityPerBox' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+

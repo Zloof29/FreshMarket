@@ -1,7 +1,7 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import { addProduct, initProducts, initUser, logoutUser } from "./reducers";
 import { UserModel } from "../Models/UserModel";
-import { ProductModel } from "../Models/productModel";
+import { ProductModel } from "../Models/ProductModel";
 
 // Application state:
 export type AppState = {

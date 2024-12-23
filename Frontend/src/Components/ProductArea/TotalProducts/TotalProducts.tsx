@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import "./TotalProducts.css";
+import css from "./TotalProducts.module.css";
 import { AppState } from "../../../Redux/store";
 
 export function TotalProducts(): JSX.Element {

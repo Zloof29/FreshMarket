@@ -4,6 +4,7 @@ import Joi from "joi";
 export class ProductModel {
   public id: number;
   public productCode: number;
+  public name: string;
   public imageName: UploadedFile;
   public quantityPerBox: number;
   public orderByBox: number;
@@ -14,6 +15,7 @@ export class ProductModel {
   constructor(product: ProductModel) {
     this.id = product.id;
     this.productCode = product.productCode;
+    this.name = product.name;
     this.imageName = product.imageName;
     this.quantityPerBox = product.quantityPerBox;
     this.orderByBox = product.orderByBox;
@@ -26,6 +28,7 @@ export class ProductModel {
     const schema = Joi.object({
       id: Joi.number().optional(),
       productCode: Joi.number().required(),
+      name: Joi.string().required,
       imageName: Joi.string().uri().required(),
       quantityPerBox: Joi.number().required(),
       orderByBox: Joi.number().required(),

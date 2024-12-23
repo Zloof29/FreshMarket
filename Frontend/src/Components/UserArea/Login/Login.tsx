@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import "./Login.css";
+import css from "./Login.module.css";
 import { CredentialsModel } from "../../../Models/CredentialsModel";
 import { useNavigate } from "react-router-dom";
 import { userService } from "../../../Services/UserService";
