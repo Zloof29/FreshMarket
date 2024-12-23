@@ -21,10 +21,11 @@ class ProductService {
       : null;
 
     const sql =
-      "INSERT INTO products (id, productCode, imageName, quantityPerBox, orderByBox, orderByWeight, price, userId) VALUES (default, ?, ?, ?, ?, ?, ?, ?, ?";
+      "INSERT INTO products (id, productCode, name, imageName, quantityPerBox, orderByBox, orderByWeight, price, userId) VALUES (default, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     const values = [
       product.productCode,
+      product.name,
       imageName,
       product.quantityPerBox,
       product.orderByBox,

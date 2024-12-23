@@ -11,7 +11,7 @@ class ProductController {
   // Register routes:
   public constructor() {
     this.router.get("/products/:userId([0-9]+)", this.getAllProducts);
-    this.router.post("/products/", this.addProduct);
+    this.router.post("/products/:userId([0-9]+)", this.addProduct);
   }
 
   // Get all products:
@@ -36,6 +36,7 @@ class ProductController {
   ) {
     try {
       request.body.imageName = request.files?.imageName;
+      request.body.userId = request.params.userId;
       const product = new ProductModel(request.body);
       const addedProduct = await productService.addProduct(product);
       response.status(StatusCode.Created).json(addedProduct);

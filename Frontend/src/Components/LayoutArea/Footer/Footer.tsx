@@ -1,9 +1,9 @@
-import "./Footer.css";
+import css from "./Footer.module.css";
 
 export function Footer(): JSX.Element {
-    return (
-        <div className="Footer">
-			<p>All Rights Reserved ©</p>
-        </div>
-    );
+  return (
+    <div className={css.Footer}>
+      <p>All Rights Reserved ©</p>
+    </div>
+  );
 }

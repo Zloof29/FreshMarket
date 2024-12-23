@@ -1,6 +1,6 @@
 import { Action, PayloadAction } from "@reduxjs/toolkit";
 import { UserModel } from "../Models/UserModel";
-import { ProductModel } from "../Models/productModel";
+import { ProductModel } from "../Models/ProductModel";
 
 export function initProducts(
   currentState: ProductModel,

@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
-import { ProductModel } from "../Models/productModel";
+import { ProductModel } from "../Models/ProductModel";
 import { appConfig } from "../Utils/AppConfig";
 import { productActions, store } from "../Redux/store";
 
@@ -17,13 +17,16 @@ class ProductService {
     return products;
   }
 
-  public async addProduct(product: ProductModel): Promise<ProductModel> {
+  public async addProduct(
+    product: ProductModel,
+    userId: number
+  ): Promise<ProductModel> {
     const options: AxiosRequestConfig = {
       headers: { "Content-Type": "multipart/form-data" },
     };
 
     const response = await axios.post<ProductModel>(
-      appConfig.productsUrl,
+      appConfig.productsUrl + userId,
       product,
       options
     );

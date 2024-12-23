@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import "./UserMenu.css";
+import css from "./UserMenu.module.css";
 import { AppState } from "../../../Redux/store";
 import { UserModel } from "../../../Models/UserModel";
 import { NavLink } from "react-router-dom";
