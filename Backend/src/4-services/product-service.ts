@@ -7,8 +7,15 @@ import { OkPacketParams } from "mysql2";
 class ProductService {
   // Get all products:
   public async getAllProducts(userId: number): Promise<ProductModel[]> {
-    const sql =
-      'SELECT *, CONCAT("http://localhost:400/api/products/images/", imageName) as imageUrl FROM products WHERE userId = ?';
+    const sql = `
+      SELECT 
+        p.*, 
+        CONCAT('http://localhost:4000/api/products/images/', p.imageName) AS imageUrl 
+      FROM 
+        products p
+      WHERE 
+        p.userId = ?
+    `;
 
     const products: ProductModel[] = await dal.execute(sql, [userId]);
 

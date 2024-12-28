@@ -29,7 +29,7 @@ export class ProductModel {
       id: Joi.number().optional(),
       productCode: Joi.number().required(),
       name: Joi.string().required,
-      imageName: Joi.string().uri().required(),
+      imageName: Joi.object().required(),
       quantityPerBox: Joi.number().required(),
       orderByBox: Joi.number().required(),
       orderByWeight: Joi.number().required(),

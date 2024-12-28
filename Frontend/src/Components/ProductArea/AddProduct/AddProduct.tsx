@@ -24,9 +24,10 @@ export function AddProduct(): JSX.Element {
     if (userId === null) {
       navigate("/logIn");
     } else {
-      setValue("quantityPerBox", 0);
       setValue("orderByBox", 0);
       setValue("orderByWeight", 0);
+      const productCode = Math.floor(1000 + Math.random() * 9000);
+      setValue("productCode", productCode);
     }
   }, [setValue]);
 
@@ -77,7 +78,7 @@ export function AddProduct(): JSX.Element {
           required
         />
         <input
-          id="imageName"
+          id="image"
           type="file"
           accept="image/*"
           {...register("imageName")}
@@ -94,9 +95,35 @@ export function AddProduct(): JSX.Element {
           required
         />
 
-        <input type="hidden" {...register("quantityPerBox")} />
-        <input type="hidden" {...register("orderByBox")} />
-        <input type="hidden" {...register("orderByWeight")} />
+        <TextField
+          id="outlined-basic"
+          label="quantity Per Box"
+          variant="outlined"
+          fullWidth
+          type="number"
+          {...register("quantityPerBox")}
+          required
+        />
+
+        <TextField
+          id="outlined-basic"
+          label="order By Box"
+          variant="outlined"
+          fullWidth
+          type="number"
+          {...register("orderByBox")}
+          required
+        />
+
+        <TextField
+          id="outlined-basic"
+          label="order By Weight"
+          variant="outlined"
+          fullWidth
+          type="number"
+          {...register("orderByWeight")}
+          required
+        />
 
         <ButtonGroup
           disableElevation

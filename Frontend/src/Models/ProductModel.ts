@@ -2,6 +2,7 @@ export class ProductModel {
   public id: number;
   public productCode: number;
   public name: string;
+  public imageUrl: string;
   public imageName: File;
   public quantityPerBox: number;
   public orderByBox: number;
