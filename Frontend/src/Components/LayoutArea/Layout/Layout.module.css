@@ -1,19 +1,17 @@
 .Layout {
-	height: 100%;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-rows: 10% 85% 5%;
-    grid-template-columns: 20% 80%;
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 10% 10% 75% 5%;
+  grid-template-columns: 100%;
 }
 
-header, footer {
-    grid-column: span 2;
+header,
+footer,
+aside {
+  grid-column: span 1;
 }
 
 main {
-    overflow: auto;
-}
-
-.Layout, .Layout > * {
-    border: 1px solid;
+  overflow: auto;
 }

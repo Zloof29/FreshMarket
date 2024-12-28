@@ -26,7 +26,7 @@ export function ProductList(): JSX.Element {
   return (
     <div className={css.ProductList}>
       {products.length > 0 ? (
-        <table>
+        <table className="table table-striped table-dark">
           <thead>
             <tr>
               <th>Product Code</th>
