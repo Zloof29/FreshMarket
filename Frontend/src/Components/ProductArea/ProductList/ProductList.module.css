@@ -1,3 +1,8 @@
 .ProductList {
-	
+  display: flex;
+  justify-content: center;
+}
+
+.ProductList table {
+  width: 80%;
 }

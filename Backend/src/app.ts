@@ -12,52 +12,49 @@ import { userController } from "./5-controllers/user-controller";
 import { errorsMiddleware } from "./6-middleware/errors-middleware";
 import { securityMiddleware } from "./6-middleware/security-middleware";
 
-// Configure fileSaver once: 
+// Configure fileSaver once:
 fileSaver.config(path.join(__dirname, "1-assets", "images"));
 
-// Create main server object: 
+// Create main server object:
 const server = express();
-
-// server.use(expressRateLimit({
-//     windowMs: 5000,
-//     limit: 3,
-// }));
-
-// Remove non-secured headers from the response:
-server.use(helmet()); // כולנו מחכים לטרוסמן
 
 // Enable CORS:
 server.use(cors());
-// server.use(cors({ origin: "https://mysite.com" }));
-// server.use(cors({ origin: ["http://mysite.com", "https://mysite.com", "https://some-other-site.com"] }));
 
-// Create the body from json: 
+// Create the body from json:
 server.use(express.json());
 
 // Read files into request.files:
 server.use(expressFileUpload());
 
-// Register middleware: 
+// Register middleware:
 server.use(securityMiddleware.preventXssAttack);
 
 // Register routes:
 server.use("/api", productController.router, userController.router);
 
-// Register route not found middleware: 
+// Register route not found middleware:
 server.use("*", errorsMiddleware.routeNotFound);
 
 // Register catchAll middleware:
 server.use(errorsMiddleware.catchAll);
 
-// Run server: 
+// Run server:
 if (appConfig.isDevelopment) {
-    server.listen(appConfig.port, () => console.log("Listening on http://localhost:" + appConfig.port));
-}
-else {
-    const options = {
-        cert: fs.readFileSync(path.join(__dirname, "1-assets", "cert", "localhost_3000.crt")),
-        key: fs.readFileSync(path.join(__dirname, "1-assets", "cert", "localhost_3000-privateKey.key"))
-    };
-    const httpsServer = https.createServer(options, server);
-    httpsServer.listen(appConfig.port, () => console.log("Listening on https://localhost:" + appConfig.port));
+  server.listen(appConfig.port, () =>
+    console.log("Listening on http://localhost:" + appConfig.port)
+  );
+} else {
+  const options = {
+    cert: fs.readFileSync(
+      path.join(__dirname, "1-assets", "cert", "localhost_3000.crt")
+    ),
+    key: fs.readFileSync(
+      path.join(__dirname, "1-assets", "cert", "localhost_3000-privateKey.key")
+    ),
+  };
+  const httpsServer = https.createServer(options, server);
+  httpsServer.listen(appConfig.port, () =>
+    console.log("Listening on https://localhost:" + appConfig.port)
+  );
 }
