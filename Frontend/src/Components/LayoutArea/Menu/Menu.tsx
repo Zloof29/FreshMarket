@@ -22,7 +22,6 @@ export function Menu(): JSX.Element {
         <>
           <NavLink to="/products">Products</NavLink>
           <NavLink to="/new-product">Add Product</NavLink>
-          <TotalProducts />
         </>
       ) : (
         <></>
@@ -31,7 +30,6 @@ export function Menu(): JSX.Element {
       {user && user.roleId === 2 ? (
         <>
           <NavLink to="/products">Products</NavLink>
-          <TotalProducts />
         </>
       ) : (
         <></>
