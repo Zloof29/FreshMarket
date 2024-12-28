@@ -548,3 +548,23 @@ Stack: Error: Column 'imageName' cannot be null
     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
 ---------------------------------------
 
+Time: Sat Dec 28 2024 15:45:38 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Dec 28 2024 15:45:45 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Dec 28 2024 15:45:51 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Dec 28 2024 16:01:10 GMT+0200 (שעון ישראל (חורף))
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
