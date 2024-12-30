@@ -2,6 +2,7 @@ import { fileSaver } from "uploaded-file-saver";
 import { dal } from "../2-utils/dal";
 import { ProductModel } from "../3-models/productModel";
 import { OkPacketParams } from "mysql2";
+import { ResourceNotFoundError } from "../3-models/client-error";
 
 // Product service - any logic regarding products:
 class ProductService {
@@ -23,6 +24,8 @@ class ProductService {
   }
 
   public async addProduct(product: ProductModel): Promise<ProductModel> {
+    // validation needed!
+
     const imageName = product.imageName
       ? await fileSaver.add(product.imageName)
       : null;
@@ -44,6 +47,21 @@ class ProductService {
     const info: OkPacketParams = await dal.execute(sql, values);
 
     product.id - info.insertId;
+
+    return product;
+  }
+
+  public async editProduct(product: ProductModel): Promise<ProductModel> {
+    // validation needed!
+
+    const sql =
+      "UPDATE products SET orderByBox = ?, orderByWeight = ? WHERE id = ?";
+
+    const values = [product.orderByBox, product.orderByWeight];
+
+    const info: OkPacketParams = await dal.execute(sql, values);
+
+    if (info.affectedRows === 0) throw new ResourceNotFoundError(product.id);
 
     return product;
   }

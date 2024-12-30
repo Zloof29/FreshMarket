@@ -14,6 +14,7 @@ class ProductController {
     this.router.get("/products/:userId([0-9]+)", this.getAllProducts);
     this.router.post("/products/:userId([0-9]+)", this.addProduct);
     this.router.get("/products/images/:imageName", this.getProductImage);
+    this.router.get("/products/:id([0-9])", this.editProduct);
   }
 
   // Get all products:
@@ -56,6 +57,22 @@ class ProductController {
       const imageName = request.params.imageName;
       const imagePath = fileSaver.getFilePath(imageName, true);
       response.sendFile(imagePath);
+    } catch (error: any) {
+      next(error);
+    }
+  }
+
+  private async editProduct(
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) {
+    try {
+      const id = request.params.id;
+      request.body.id = id;
+      const product = new ProductModel(request.body);
+      const updatedProduct = await productService.addProduct(product);
+      response.json(updatedProduct);
     } catch (error: any) {
       next(error);
     }

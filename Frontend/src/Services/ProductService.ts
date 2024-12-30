@@ -40,6 +40,14 @@ class ProductService {
 
     return addedProduct;
   }
+
+  public async editProduct(product: ProductModel): Promise<ProductModel> {
+    const response = axios.put<ProductModel>(appConfig.productsUrl, product);
+
+    const editedProduct = (await response).data;
+
+    return editedProduct;
+  }
 }
 
 export const productService = new ProductService();
