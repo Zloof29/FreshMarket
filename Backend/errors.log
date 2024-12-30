@@ -568,3 +568,8 @@ Message: Incorrect email or password.
 Stack: undefined
 ---------------------------------------
 
+Time: Mon Dec 30 2024 18:27:12 GMT+0200 (שעון ישראל (חורף))
+Message: Route / on method GET not exist.
+Stack: undefined
+---------------------------------------
+

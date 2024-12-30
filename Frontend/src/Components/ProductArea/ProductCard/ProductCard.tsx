@@ -4,12 +4,15 @@ import { AppState } from "../../../Redux/store";
 import { ProductModel } from "../../../Models/ProductModel";
 import { useEffect } from "react";
 import { productService } from "../../../Services/ProductService";
+import { useForm } from "react-hook-form";
 
 type ProductProps = {
   product: ProductModel;
 };
 
 export function ProductCard(props: ProductProps): JSX.Element {
+  const { register, handleSubmit } = useForm<ProductModel>();
+
   const userId = useSelector<AppState, number>((state) => state.user.id);
 
   useEffect(() => {
@@ -29,8 +32,20 @@ export function ProductCard(props: ProductProps): JSX.Element {
         />
       </td>
       <td>{props.product.price}</td>
-      <td>{props.product.orderByBox}</td>
-      <td>{props.product.orderByWeight}</td>
+      <td>
+        <input
+          type="number"
+          {...register("orderByBox")}
+          value={props.product.orderByBox}
+        />
+      </td>
+      <td>
+        <input
+          type="number"
+          {...register("orderByWeight")}
+          value={props.product.orderByWeight}
+        />
+      </td>
     </tr>
   );
 }
