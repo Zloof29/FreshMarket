@@ -12,9 +12,9 @@ class ProductController {
   // Register routes:
   public constructor() {
     this.router.get("/products/:userId([0-9]+)", this.getAllProducts);
-    this.router.post("/products/:userId([0-9]+)", this.addProduct);
     this.router.get("/products/images/:imageName", this.getProductImage);
-    this.router.get("/products/:id([0-9])", this.editProduct);
+    this.router.post("/products/:userId([0-9]+)", this.addProduct);
+    this.router.put("/products/:id([0-9]+)", this.editProduct);
   }
 
   // Get all products:
@@ -70,8 +70,9 @@ class ProductController {
     try {
       const id = request.params.id;
       request.body.id = id;
+      // request.body.imageName = request.files?.imageName;
       const product = new ProductModel(request.body);
-      const updatedProduct = await productService.addProduct(product);
+      const updatedProduct = await productService.editProduct(product);
       response.json(updatedProduct);
     } catch (error: any) {
       next(error);

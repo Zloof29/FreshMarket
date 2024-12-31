@@ -41,10 +41,13 @@ class ProductService {
     return addedProduct;
   }
 
-  public async editProduct(product: ProductModel): Promise<ProductModel> {
-    const response = axios.put<ProductModel>(appConfig.productsUrl, product);
+  public async editProduct(product: ProductModel, id: number): Promise<ProductModel> {
+    const response = await axios.put<ProductModel>(
+      appConfig.productsUrl + id,
+      product
+    );
 
-    const editedProduct = (await response).data;
+    const editedProduct = response.data;
 
     return editedProduct;
   }

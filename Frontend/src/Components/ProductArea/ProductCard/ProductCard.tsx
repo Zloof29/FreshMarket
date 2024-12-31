@@ -2,16 +2,41 @@ import css from "./ProductCard.module.css";
 import { useSelector } from "react-redux";
 import { AppState } from "../../../Redux/store";
 import { ProductModel } from "../../../Models/ProductModel";
-import { useEffect } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { productService } from "../../../Services/ProductService";
-import { useForm } from "react-hook-form";
+import { notify } from "../../../Utils/notify";
 
 type ProductProps = {
   product: ProductModel;
 };
 
 export function ProductCard(props: ProductProps): JSX.Element {
-  const { register, handleSubmit } = useForm<ProductModel>();
+  const [orderByBox, setOrderByBox] = useState<number>(
+    props.product.orderByBox
+  );
+  const [orderByWeight, setOrderByWeight] = useState<number>(
+    props.product.orderByWeight
+  );
+
+  const handleOrderByBox = (event: ChangeEvent<HTMLInputElement>) => {
+    setOrderByBox(+event.target.value);
+  };
+
+  const handleOrderByWeight = (event: ChangeEvent<HTMLInputElement>) => {
+    setOrderByWeight(+event.target.value);
+  };
+
+  async function handleEdit() {
+    const updatedProduct = {
+      ...props.product,
+      orderByBox,
+      orderByWeight,
+    };
+
+    await productService.editProduct(updatedProduct, props.product.id);
+
+    notify.success("product has been updated.");
+  }
 
   const userId = useSelector<AppState, number>((state) => state.user.id);
 
@@ -33,18 +58,17 @@ export function ProductCard(props: ProductProps): JSX.Element {
       </td>
       <td>{props.product.price}</td>
       <td>
-        <input
-          type="number"
-          {...register("orderByBox")}
-          value={props.product.orderByBox}
-        />
+        <input type="number" value={orderByBox} onChange={handleOrderByBox} />
       </td>
       <td>
         <input
           type="number"
-          {...register("orderByWeight")}
-          value={props.product.orderByWeight}
+          value={orderByWeight}
+          onChange={handleOrderByWeight}
         />
+      </td>
+      <td>
+        <button onClick={handleEdit}>Edit</button>
       </td>
     </tr>
   );

@@ -57,7 +57,7 @@ class ProductService {
     const sql =
       "UPDATE products SET orderByBox = ?, orderByWeight = ? WHERE id = ?";
 
-    const values = [product.orderByBox, product.orderByWeight];
+    const values = [product.orderByBox, product.orderByWeight, product.id];
 
     const info: OkPacketParams = await dal.execute(sql, values);
 
