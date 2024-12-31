@@ -573,3 +573,228 @@ Message: Route / on method GET not exist.
 Stack: undefined
 ---------------------------------------
 
+Time: Tue Dec 31 2024 19:44:02 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/products/ on method PUT not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 31 2024 19:50:09 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/products/17 on method PUT not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 31 2024 19:51:30 GMT+0200 (שעון ישראל (חורף))
+Message: Route /api/products/17 on method PUT not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Dec 31 2024 19:53:37 GMT+0200 (שעון ישראל (חורף))
+Message: Cannot read properties of undefined (reading 'lastIndexOf')
+Stack: TypeError: Cannot read properties of undefined (reading 'lastIndexOf')
+    at FileSaver.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:39:55)
+    at Generator.next (<anonymous>)
+    at C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:4:12)
+    at FileSaver.add (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:32:16)
+    at ProductService.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\src\4-services\product-service.ts:30:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\src\4-services\product-service.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Tue Dec 31 2024 19:57:58 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 19:58:09 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:02:46 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:03:11 GMT+0200 (שעון ישראל (חורף))
+Message: Cannot read properties of undefined (reading 'lastIndexOf')
+Stack: TypeError: Cannot read properties of undefined (reading 'lastIndexOf')
+    at FileSaver.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:39:55)
+    at Generator.next (<anonymous>)
+    at C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:4:12)
+    at FileSaver.add (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\uploaded-file-saver\dist\file-saver.js:32:16)
+    at ProductService.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\src\4-services\product-service.ts:30:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\src\4-services\product-service.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:06:15 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:15:31 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:16:53 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:18:00 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:18:36 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:19:46 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:20:36 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:21:19 GMT+0200 (שעון ישראל (חורף))
+Message: Column 'imageName' cannot be null
+Stack: Error: Column 'imageName' cannot be null
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Dec 31 2024 20:22:15 GMT+0200 (שעון ישראל (חורף))
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Packet.asError (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Lior Bas\OneDrive\Desktop\FreshMarket\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+

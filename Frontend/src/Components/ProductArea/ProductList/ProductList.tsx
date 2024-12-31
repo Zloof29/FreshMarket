@@ -36,6 +36,7 @@ export function ProductList(): JSX.Element {
               <th>Price</th>
               <th>Order By Box</th>
               <th>Order By Weight</th>
+              <th>Edit</th>
             </tr>
           </thead>
           <tbody>
